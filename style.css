@@ -1,0 +1,127 @@
+@import 'https://fonts.googleapis.com/css?family=Cinzel';
+
+
+
+
+.over{
+  background-color: #74a0e8;
+  font-family: 'Pacifico', cursive;
+  padding: 10px;
+  font-size: 25px;
+width: 100%;
+   height:100vh;
+}
+.text-center{
+  font-family: "Cinzel";
+  font-size: 60px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.wiki{
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 140px;
+  border: 3px solid #48fc3f;
+    transition: all 1.5s ease;
+  
+ 
+
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  }
+
+.line{
+  margin: 0 auto 5px;
+  background: black; 
+     width: 75%; 
+     height: 2px;
+}
+
+.searchBtn, .wiki {
+    font-family: sans-serif;
+  border: 3px solid #4d54dd;
+    transition: all 1.5s ease;
+  background-color:#4d54dd;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+}
+.searchBtn:hover, .wiki:hover {
+  background-color: #0f1244;
+  opacity: 0.9;
+  color: #fff;
+  border: 0px;
+  }
+.holder{
+  display: block;
+  margin: 0px auto;
+  background-color: #6e9fef;
+  text-align: center;
+  width: 600px;
+}
+#query{
+  transition: all 1.0s ease;
+}
+
+.oldSearch{
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+.newSearch{
+  padding: 5px 15px;
+  width: 40%;
+  height: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8ebef;
+  font-size: 20px;
+}
+#search {
+  visibility: hidden;
+ height: 40px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 120px;
+  font-size: 20px;
+ margin-left: 20px;
+}
+
+#wikList{
+  padding: 20px;
+  background-color: #74a0e8;
+  margin-top: -350px;
+}
+.glyphicon glyphicon-search{
+  display: block;
+  margin: 0px auto;
+  
+transition: all 2.6s ease;
+  }
+.searchIcon{
+  height: 100px;
+  width: 100px;
+  margin: 0px auto;
+  transition: all 1.3s ease;
+  font-size: 110px;
+}
+
+.searchIcon:hover ,.glyphicon glyphicon-search{
+  font-size: 220px;
+}
+
+.w1{
+  margin: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+.w1:hover {
+  border-left: thick solid #303030;
+  background-color: #c9d3e2;
+}
